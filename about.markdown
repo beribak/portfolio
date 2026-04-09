@@ -1,18 +1,39 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<div class="site-shell inner-page">
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
+  <div class="bg-orb orb-c"></div>
+  <div class="bg-grid"></div>
+  <div class="noise"></div>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+  <header class="topbar">
+    <a class="brand" href="/">
+      <span class="brand-mark"></span>
+      <span>Danko</span>
+    </a>
+    <div class="topbar-actions">
+      <nav class="nav">
+        <a href="/#projects">Projects</a>
+        <a href="/#freeware">Freeware</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle theme">◐</button>
+    </div>
+  </header>
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+  <main>
+    <section class="panel glass prose-panel reveal is-visible">
+      <p class="section-label">About</p>
+      <h1>AI Engineer & Developer</h1>
+      <p>I build products that combine intelligence, good engineering, and visual polish. My focus is on creating software that is useful in the real world, technically solid underneath, and clean enough on the surface that people actually enjoy using it.</p>
+      <p>That includes AI-driven workflows, web applications, automation systems, internal tools, and modern product interfaces. I care about structure, clarity, execution speed, and finishing quality — not just getting something to work, but getting it to feel right.</p>
+      <p>Alongside building, I’ve also taught at <strong>Le Wagon bootcamp</strong>, which sharpened how I break down complex topics, debug under pressure, and help people move from confusion to momentum quickly.</p>
+      <p><a class="button button-primary" href="/">Back to Home</a></p>
+    </section>
+  </main>
+</div>
