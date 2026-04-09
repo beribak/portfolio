@@ -45,7 +45,7 @@ permalink: /
         <div class="hero-pill-row">
           <span class="info-pill">Applied AI</span>
           <span class="info-pill">Automation</span>
-          <span class="info-pill">Full-Stack Products</span>
+          <span class="info-pill">JavaScript & Rails</span>
           <span class="info-pill">Elegant UX</span>
         </div>
 
@@ -143,6 +143,65 @@ permalink: /
       </div>
     </section>
 
+    <section id="stack" class="section-stack">
+      <div class="section-head reveal">
+        <p class="section-label">Tooling & Stack</p>
+        <h2>What I use to build</h2>
+      </div>
+
+      <div class="tool-explorer panel glass reveal">
+        <div class="tool-tabs" role="tablist" aria-label="Technology categories">
+          <button class="tool-tab is-active" type="button" data-tool-tab="development">Development</button>
+          <button class="tool-tab" type="button" data-tool-tab="automation">Automation</button>
+          <button class="tool-tab" type="button" data-tool-tab="shipping">Shipping</button>
+        </div>
+
+        <div class="tool-panels">
+          <article class="tool-panel is-active" data-tool-panel="development">
+            <div class="tool-panel-copy">
+              <p class="section-label">Development</p>
+              <h3>JavaScript and Rails for real product work</h3>
+              <p>I like tools that let me move fast without turning the codebase into garbage. JavaScript gives me flexibility on the frontend and product layer, while Rails remains one of the strongest ways to ship serious application logic quickly.</p>
+              <ul>
+                <li>JavaScript for interactive product interfaces and app behavior</li>
+                <li>Rails for strong backend structure, CRUD flows, and rapid product delivery</li>
+                <li>Clean interfaces over unnecessary complexity</li>
+              </ul>
+            </div>
+            <div class="tool-panel-visual tool-visual-dev"></div>
+          </article>
+
+          <article class="tool-panel" data-tool-panel="automation">
+            <div class="tool-panel-copy">
+              <p class="section-label">Automation</p>
+              <h3>OpenClaw and GitHub Actions for leverage</h3>
+              <p>I use automation where it genuinely saves time and sharpens execution. OpenClaw is powerful for agentic workflows and practical orchestration. GitHub Actions is ideal for repeatable repo-driven automation, scheduled tasks, and deployment flows.</p>
+              <ul>
+                <li>OpenClaw for agentic workflows and operational automation</li>
+                <li>GitHub Actions for scheduled jobs, generated content, and CI/CD</li>
+                <li>Systems that reduce manual repetition and keep work moving</li>
+              </ul>
+            </div>
+            <div class="tool-panel-visual tool-visual-auto"></div>
+          </article>
+
+          <article class="tool-panel" data-tool-panel="shipping">
+            <div class="tool-panel-copy">
+              <p class="section-label">Shipping</p>
+              <h3>Jekyll and static sites where simplicity wins</h3>
+              <p>Not every project needs heavy infrastructure. Jekyll and static architectures are still excellent when the goal is speed, clarity, maintainability, and cheap reliable deployment.</p>
+              <ul>
+                <li>Jekyll for fast static publishing</li>
+                <li>Static site workflows for clarity and reliability</li>
+                <li>Right-sized architecture instead of overengineering</li>
+              </ul>
+            </div>
+            <div class="tool-panel-visual tool-visual-ship"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section id="projects" class="section-stack">
       <div class="section-head reveal">
         <p class="section-label">Featured Projects</p>
@@ -152,7 +211,10 @@ permalink: /
       <div class="card-grid two-up project-grid-main">
         <article class="panel glass project-card project-accent-a tall-card reveal">
           <span class="project-tag">LIVE PRODUCT</span>
-          <h3>Training Forever</h3>
+          <div class="project-brand">
+            <img src="https://www.google.com/s2/favicons?domain=app.trainingforever.com&sz=128" alt="Training Forever logo" class="project-logo" />
+            <h3>Training Forever</h3>
+          </div>
           <p>A product-focused project positioned around a live application experience. Use this space later to explain the core problem, how the product works, what stack powers it, and why it matters.</p>
           <div class="project-visual gradient-visual-a"></div>
           <ul>
@@ -165,7 +227,10 @@ permalink: /
         <div class="subproject-stack">
           <article class="panel glass project-card project-accent-b reveal-delay-1">
             <span class="project-tag">PLATFORM</span>
-            <h3>IRF</h3>
+            <div class="project-brand">
+              <img src="https://www.google.com/s2/favicons?domain=irf.uk&sz=128" alt="IRF logo" class="project-logo" />
+              <h3>IRF</h3>
+            </div>
             <p>A placeholder showcase entry for IRF. Add the real positioning later: what it does, who it serves, what the engineering challenge was, and what makes it valuable.</p>
             <div class="project-visual gradient-visual-b"></div>
             <p class="project-link"><a href="https://IRF.uk" target="_blank" rel="noreferrer">Visit IRF.uk</a></p>
@@ -173,7 +238,10 @@ permalink: /
 
           <article class="panel glass project-card project-accent-c reveal-delay-2">
             <span class="project-tag">EDUCATION</span>
-            <h3>Le Wagon Teaching & Mentoring</h3>
+            <div class="project-brand">
+              <img src="https://www.google.com/s2/favicons?domain=lewagon.com&sz=128" alt="Le Wagon logo" class="project-logo" />
+              <h3>Le Wagon Teaching & Mentoring</h3>
+            </div>
             <p>Teaching at Le Wagon bootcamp sharpened my communication, code review instincts, debugging clarity, and ability to break complex technical ideas into practical steps.</p>
             <div class="project-visual gradient-visual-c"></div>
           </article>

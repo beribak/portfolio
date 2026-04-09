@@ -30,4 +30,18 @@
   document.querySelectorAll('.reveal, .reveal-delay-1, .reveal-delay-2, .reveal-delay-3').forEach((el) => {
     observer.observe(el);
   });
+
+  const tabs = document.querySelectorAll('[data-tool-tab]');
+  const panels = document.querySelectorAll('[data-tool-panel]');
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      const target = tab.dataset.toolTab;
+
+      tabs.forEach((item) => item.classList.toggle('is-active', item === tab));
+      panels.forEach((panel) => {
+        panel.classList.toggle('is-active', panel.dataset.toolPanel === target);
+      });
+    });
+  });
 })();
