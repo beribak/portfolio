@@ -3,8 +3,8 @@ email: "hello@example.com"
 description: >-
   Personal portfolio for an AI engineer and developer building elegant,
   practical, and ambitious software.
-baseurl: ""
-url: ""
+baseurl: "/portfolio"
+url: "https://beribak.github.io"
 
 name: "Danko"
 role: "AI Engineer & Developer"
