@@ -34,7 +34,7 @@ permalink: /
     <section id="hero" class="hero panel glass reveal">
       <div class="hero-copy">
         <p class="eyebrow">AI ENGINEER · DEVELOPER · PRODUCT BUILDER</p>
-        <h1>I design and build intelligent software that feels as polished as it performs.</h1>
+        <h1>I design and build <span class="neon-text">intelligent software</span> that feels as polished as it performs.</h1>
         <p class="lead">I work at the intersection of AI, software engineering, automation, and product thinking — building tools, systems, and experiences that are modern, useful, fast, and elegant.</p>
 
         <div class="hero-actions">
@@ -110,7 +110,7 @@ permalink: /
     <section id="expertise" class="section-stack">
       <div class="section-head reveal">
         <p class="section-label">Expertise</p>
-        <h2>What I build</h2>
+        <h2>What I <span class="neon-text">build</span></h2>
       </div>
 
       <div class="card-grid three-up">
@@ -205,7 +205,7 @@ permalink: /
     <section id="projects" class="section-stack">
       <div class="section-head reveal">
         <p class="section-label">Featured Projects</p>
-        <h2>Selected work</h2>
+        <h2>Selected <span class="neon-text">work</span></h2>
       </div>
 
       <div class="card-grid two-up project-grid-main">
@@ -252,7 +252,7 @@ permalink: /
     <section id="freeware" class="section-stack">
       <div class="section-head reveal">
         <p class="section-label">Freeware</p>
-        <h2>Useful public-facing tools</h2>
+        <h2>Useful <span class="neon-text">tools</span></h2>
       </div>
 
       <div class="card-grid three-up">
@@ -282,7 +282,7 @@ permalink: /
     <section id="process" class="section-stack">
       <div class="section-head reveal">
         <p class="section-label">Process</p>
-        <h2>How I work</h2>
+        <h2>How I <span class="neon-text">work</span></h2>
       </div>
 
       <div class="timeline-grid">

@@ -129,7 +129,7 @@ main {
   margin-bottom: 28px;
   padding: 16px 20px;
   border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 8px;
+  border-radius: 2px;
   background: rgba(8, 12, 24, 0.52);
   backdrop-filter: blur(18px);
   box-shadow: var(--shadow);
@@ -153,6 +153,7 @@ main {
 .brand-mark {
   width: 14px;
   height: 14px;
+  border-radius: 1px;
   background: linear-gradient(135deg, var(--secondary), var(--primary));
   box-shadow: 0 0 24px rgba(57, 255, 136, 0.38);
 }
@@ -177,7 +178,7 @@ main {
   width: 42px;
   height: 42px;
   border: 1px solid rgba(255,255,255,0.12);
-  border-radius: 4px;
+  border-radius: 1px;
   background: rgba(255,255,255,0.05);
   color: var(--text);
   cursor: pointer;
@@ -186,7 +187,7 @@ main {
 
 .panel {
   border: 1px solid var(--panel-border);
-  border-radius: 8px;
+  border-radius: 2px;
   box-shadow: var(--shadow);
 }
 
@@ -213,6 +214,7 @@ main {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--secondary);
+  text-shadow: 0 0 12px rgba(57,255,136,0.16);
 }
 
 .hero h1,
@@ -227,6 +229,14 @@ main {
 .hero h1 {
   font-size: clamp(3.2rem, 7vw, 6.6rem);
   max-width: 10ch;
+}
+
+.neon-text {
+  color: var(--secondary);
+  text-shadow:
+    0 0 8px rgba(57, 255, 136, 0.58),
+    0 0 18px rgba(57, 255, 136, 0.34),
+    0 0 34px rgba(57, 255, 136, 0.18);
 }
 
 .lead,
@@ -257,6 +267,7 @@ blockquote {
 .info-pill {
   padding: 10px 14px;
   border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 1px;
   background: rgba(255,255,255,0.03);
   color: var(--text);
   font-size: 0.92rem;
@@ -268,7 +279,7 @@ blockquote {
   justify-content: center;
   min-height: 48px;
   padding: 0 18px;
-  border-radius: 4px;
+  border-radius: 1px;
   font-weight: 700;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
@@ -308,7 +319,7 @@ blockquote {
 .spotlight-card,
 .insight-card {
   border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 6px;
+  border-radius: 2px;
   background: rgba(255,255,255,0.025);
 }
 
@@ -373,6 +384,7 @@ blockquote {
 .dot {
   width: 10px;
   height: 10px;
+  border-radius: 1px;
   background: var(--secondary);
   box-shadow: 0 0 16px rgba(57, 255, 136, 0.95);
 }
@@ -387,6 +399,7 @@ blockquote {
   justify-content: space-between;
   gap: 18px;
   padding: 14px 16px;
+  border-radius: 1px;
   background: rgba(255,255,255,0.035);
   color: var(--muted);
 }
@@ -452,6 +465,7 @@ blockquote {
 
 .micro-stats div {
   padding: 16px;
+  border-radius: 1px;
   background: rgba(255,255,255,0.035);
 }
 
@@ -459,6 +473,7 @@ blockquote {
 .timeline-step {
   display: block;
   color: var(--secondary);
+  text-shadow: 0 0 12px rgba(57,255,136,0.16);
   font-size: 0.84rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -522,7 +537,8 @@ blockquote {
   gap: 40px;
   white-space: nowrap;
   padding: 18px 4px;
-  color: rgba(57,255,136,0.78);
+  color: rgba(57,255,136,0.88);
+  text-shadow: 0 0 14px rgba(57,255,136,0.2);
   letter-spacing: 0.18em;
   font-size: 0.9rem;
   text-transform: uppercase;
@@ -544,6 +560,7 @@ blockquote {
   min-height: 42px;
   padding: 0 16px;
   border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 1px;
   background: rgba(255,255,255,0.04);
   color: var(--muted);
   cursor: pointer;
@@ -580,6 +597,7 @@ blockquote {
 .tool-panel-visual {
   min-height: 280px;
   border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 2px;
   position: relative;
   overflow: hidden;
 }
@@ -642,6 +660,7 @@ blockquote {
   height: 44px;
   object-fit: cover;
   border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 1px;
   background: rgba(255,255,255,0.08);
   padding: 6px;
 }
@@ -654,6 +673,7 @@ blockquote {
 .project-visual {
   height: 190px;
   margin: 18px 0;
+  border-radius: 2px;
   position: relative;
   overflow: hidden;
 }
@@ -700,6 +720,7 @@ blockquote {
 .freeware-icon {
   width: 52px;
   height: 52px;
+  border-radius: 2px;
   margin-bottom: 18px;
 }
 
@@ -729,6 +750,7 @@ blockquote {
   font-size: 4rem;
   line-height: 1;
   color: var(--secondary);
+  text-shadow: 0 0 18px rgba(57,255,136,0.3);
 }
 
 blockquote {
