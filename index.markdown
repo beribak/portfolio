@@ -26,7 +26,7 @@ permalink: /
         <a href="#process">Process</a>
         <a href="#contact">Contact</a>
       </nav>
-      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle theme">◐</button>
+      <button class="theme-toggle sharp-control" type="button" data-theme-toggle aria-label="Toggle theme">◐</button>
     </div>
   </header>
 
@@ -151,9 +151,9 @@ permalink: /
 
       <div class="tool-explorer panel glass reveal">
         <div class="tool-tabs" role="tablist" aria-label="Technology categories">
-          <button class="tool-tab is-active" type="button" data-tool-tab="development">Development</button>
-          <button class="tool-tab" type="button" data-tool-tab="automation">Automation</button>
-          <button class="tool-tab" type="button" data-tool-tab="shipping">Shipping</button>
+          <button class="tool-tab is-active sharp-control" type="button" data-tool-tab="development">Development</button>
+          <button class="tool-tab sharp-control" type="button" data-tool-tab="automation">Automation</button>
+          <button class="tool-tab sharp-control" type="button" data-tool-tab="shipping">Shipping</button>
         </div>
 
         <div class="tool-panels">
