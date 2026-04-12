@@ -37,6 +37,14 @@ permalink: /
         <h1>I design and build <span class="neon-text">intelligent software</span> that feels as polished as it performs.</h1>
         <p class="lead">I work at the intersection of AI, software engineering, automation, and product thinking — building tools, systems, and experiences that are modern, useful, fast, and elegant.</p>
 
+        <div class="neon-banner panel" aria-hidden="true">
+          <span class="neon-bar"></span>
+          <div class="neon-banner-copy">
+            <p class="neon-banner-label">Current focus</p>
+            <strong>Projects first. Clean execution. Interfaces that feel lit from within.</strong>
+          </div>
+        </div>
+
         <div class="hero-actions">
           <a class="button button-primary" href="#projects">Explore Work</a>
           <a class="button button-ghost" href="#contact">Work With Me</a>
@@ -80,6 +88,75 @@ permalink: /
             <strong>Strong execution, thoughtful systems, visual clarity, and software that people actually want to use.</strong>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-stack projects-priority">
+      <div class="section-head reveal">
+        <p class="section-label">Featured Projects</p>
+        <h2>Selected <span class="neon-text">work</span></h2>
+        <p class="projects-intro">The portfolio now brings the project work forward so visitors land on proof quickly: live product thinking, platform work, and teaching-led technical leadership.</p>
+      </div>
+
+      <div class="card-grid project-grid-balanced">
+        <article class="panel glass project-card project-accent-a reveal">
+          <span class="project-tag">LIVE PRODUCT</span>
+          <div class="project-brand">
+            <img src="https://www.google.com/s2/favicons?domain=app.trainingforever.com&sz=128" alt="Training Forever logo" class="project-logo" />
+            <h3>Training Forever</h3>
+          </div>
+          <p>A product-focused project positioned around a live application experience. Use this space later to explain the core problem, how the product works, what stack powers it, and why it matters.</p>
+          <div class="project-meta">
+            <span>Product build</span>
+            <span>Live platform</span>
+          </div>
+          <div class="project-visual gradient-visual-a"></div>
+          <p class="project-link"><a href="https://app.trainingforever.com" target="_blank" rel="noreferrer">Visit Training Forever</a></p>
+        </article>
+
+        <article class="panel glass project-card project-accent-b reveal-delay-1">
+          <span class="project-tag">PLATFORM</span>
+          <div class="project-brand">
+            <img src="https://www.google.com/s2/favicons?domain=irf.uk&sz=128" alt="IRF logo" class="project-logo" />
+            <h3>IRF</h3>
+          </div>
+          <p>A placeholder showcase entry for IRF. Add the real positioning later: what it does, who it serves, what the engineering challenge was, and what makes it valuable.</p>
+          <div class="project-meta">
+            <span>Platform work</span>
+            <span>Systems thinking</span>
+          </div>
+          <div class="project-visual gradient-visual-b"></div>
+          <p class="project-link"><a href="https://IRF.uk" target="_blank" rel="noreferrer">Visit IRF.uk</a></p>
+        </article>
+
+        <article class="panel glass project-card project-accent-d reveal-delay-2">
+          <span class="project-tag">HOSPITALITY</span>
+          <div class="project-brand">
+            <img src="https://www.google.com/s2/favicons?domain=beribak.github.io&sz=128" alt="Two Woods Estate logo" class="project-logo" />
+            <h3>Two Woods Estate</h3>
+          </div>
+          <p>A polished hospitality-style site with a calmer visual tone. It adds a different kind of product work to the portfolio and shows range beyond app-style interfaces.</p>
+          <div class="project-meta">
+            <span>Brand experience</span>
+            <span>Visual polish</span>
+          </div>
+          <div class="project-visual gradient-visual-d"></div>
+          <p class="project-link"><a href="https://beribak.github.io/two_woods_estate/" target="_blank" rel="noreferrer">Visit Two Woods Estate</a></p>
+        </article>
+
+        <article class="panel glass project-card project-accent-c reveal-delay-3">
+          <span class="project-tag">EDUCATION</span>
+          <div class="project-brand">
+            <img src="https://www.google.com/s2/favicons?domain=lewagon.com&sz=128" alt="Le Wagon logo" class="project-logo" />
+            <h3>Le Wagon Teaching & Mentoring</h3>
+          </div>
+          <p>Teaching at Le Wagon bootcamp sharpened my communication, code review instincts, debugging clarity, and ability to break complex technical ideas into practical steps.</p>
+          <div class="project-meta">
+            <span>Mentoring</span>
+            <span>Technical leadership</span>
+          </div>
+          <div class="project-visual gradient-visual-c"></div>
+        </article>
       </div>
     </section>
 
@@ -197,53 +274,6 @@ permalink: /
               </ul>
             </div>
             <div class="tool-panel-visual tool-visual-ship"></div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section-stack">
-      <div class="section-head reveal">
-        <p class="section-label">Featured Projects</p>
-        <h2>Selected <span class="neon-text">work</span></h2>
-      </div>
-
-      <div class="card-grid two-up project-grid-main">
-        <article class="panel glass project-card project-accent-a tall-card reveal">
-          <span class="project-tag">LIVE PRODUCT</span>
-          <div class="project-brand">
-            <img src="https://www.google.com/s2/favicons?domain=app.trainingforever.com&sz=128" alt="Training Forever logo" class="project-logo" />
-            <h3>Training Forever</h3>
-          </div>
-          <p>A product-focused project positioned around a live application experience. Use this space later to explain the core problem, how the product works, what stack powers it, and why it matters.</p>
-          <div class="project-visual gradient-visual-a"></div>
-          <ul>
-            <li>Domain: <a href="https://app.trainingforever.com" target="_blank" rel="noreferrer">app.trainingforever.com</a></li>
-            <li>Placeholder for stack, infrastructure, or AI workflow details</li>
-            <li>Placeholder for business value, product outcome, or user impact</li>
-          </ul>
-        </article>
-
-        <div class="subproject-stack">
-          <article class="panel glass project-card project-accent-b reveal-delay-1">
-            <span class="project-tag">PLATFORM</span>
-            <div class="project-brand">
-              <img src="https://www.google.com/s2/favicons?domain=irf.uk&sz=128" alt="IRF logo" class="project-logo" />
-              <h3>IRF</h3>
-            </div>
-            <p>A placeholder showcase entry for IRF. Add the real positioning later: what it does, who it serves, what the engineering challenge was, and what makes it valuable.</p>
-            <div class="project-visual gradient-visual-b"></div>
-            <p class="project-link"><a href="https://IRF.uk" target="_blank" rel="noreferrer">Visit IRF.uk</a></p>
-          </article>
-
-          <article class="panel glass project-card project-accent-c reveal-delay-2">
-            <span class="project-tag">EDUCATION</span>
-            <div class="project-brand">
-              <img src="https://www.google.com/s2/favicons?domain=lewagon.com&sz=128" alt="Le Wagon logo" class="project-logo" />
-              <h3>Le Wagon Teaching & Mentoring</h3>
-            </div>
-            <p>Teaching at Le Wagon bootcamp sharpened my communication, code review instincts, debugging clarity, and ability to break complex technical ideas into practical steps.</p>
-            <div class="project-visual gradient-visual-c"></div>
           </article>
         </div>
       </div>
