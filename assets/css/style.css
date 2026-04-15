@@ -1020,6 +1020,11 @@ blockquote {
 }
 
 @media (max-width: 720px) {
+  .project-grid-balanced,
+  .card-grid.project-grid-balanced {
+    grid-template-columns: 1fr;
+  }
+
   .site-shell {
     width: min(100% - 20px, 1240px);
     padding-top: 16px;
